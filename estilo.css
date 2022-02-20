@@ -1,0 +1,299 @@
+body{
+    background-color: whitesmoke;
+}
+
+modonoturno{
+    --background: white;
+    --text: black;
+  }
+
+
+/*cabeçalho*/
+
+#nav{
+    width: 100%;
+    height: 100px;
+    background-color: #563d7c;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}  
+
+#icones-redes{
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+}
+
+#nome{
+    font-family: "Pacifico", cursive;
+    color: white;
+    font-size: 50px;
+    padding-left: 2px
+
+
+}
+
+
+
+/*centro*/
+
+
+
+#nomejs{
+    font-family: "Pacifico", cursive;
+    color: rgb(0, 0, 0);
+    font-size: 120px;
+    padding-left: 2px
+
+
+}
+
+#princi1{
+    margin-bottom:40px
+
+
+}
+#nomejs2{
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    padding-left: 2px
+
+
+}
+
+
+#texto{
+    width: 80%;
+    height: 50%;
+    text-align: center;
+    display: flex;
+    border: solid;
+    
+}
+
+#logo{
+    justify-items: center;
+    margin-bottom: 300px;
+
+
+}
+
+
+#central{
+    
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    justify-content: center;
+    
+}
+
+#logo1{
+    font-family: "Pacifico", cursive;
+    font-size: 100px;
+}
+
+
+#containertexto{
+    margin-bottom : 200px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    margin-top: 150px;
+    justify-content: center;
+}
+
+.carousel-inner{
+
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+   
+
+
+
+/*habilidades*/
+
+
+
+#containercentral{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+
+
+    
+
+}
+
+
+
+#imghabilidades{
+    width: 60px;
+    height: 60px;
+
+
+}
+
+#textoprincipal{
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+
+
+}
+
+
+
+/*projetos*/
+
+#git{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+
+}
+
+#textoprincipal2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 80px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+
+}
+
+
+.projetos{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#prj{
+    
+    height: 250px;
+    width: 53%;
+    border-color: black;
+    border: solid;
+    margin-bottom: 53px;
+    margin-top: 2%;
+    color: #563d7c;
+    display: flex;
+    height: 250px;
+    width: 53%;
+    border-color: black;
+      display: flex;
+    justify-content: center;
+}
+
+
+
+#imgprj{
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    display:flex;
+    margin-bottom: 10%;
+
+}
+
+
+
+
+
+/*rodape*/
+
+#rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    background-color: #563d7c;
+
+}
+
+#rodapetexto{
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-size: 15px;
+
+
+
+
+}
+
+/*responsividade*/
+
+@media screen and (max-width: 769px){
+    #nomejs2{
+        font-size: 70px;
+
+
+    }
+
+    #icones-redes{
+        width:40px;
+        height: 40px;
+
+
+    }
+
+    #nomejs{
+        font-size: 90px;     
+        
+
+
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    #nomejs2{
+        font-size: 30px;
+
+
+    }
+
+    #icones-redes{
+        width:25px;
+        height: 25px;
+
+
+    }
+
+    #nomejs{
+        font-size: 40px;     
+        
+
+
+    }
+
+
+
+}
+
+
