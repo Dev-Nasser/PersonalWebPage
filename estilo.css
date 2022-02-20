@@ -250,7 +250,7 @@ modonoturno{
 
 @media screen and (max-width: 769px){
     #nomejs2{
-        font-size: 70px;
+        font-size: 30px;
 
 
     }
@@ -263,7 +263,7 @@ modonoturno{
     }
 
     #nomejs{
-        font-size: 90px;     
+        font-size: 60px;     
         
 
 
@@ -271,7 +271,7 @@ modonoturno{
 
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 600px){
     #nomejs2{
         font-size: 30px;
 
@@ -279,8 +279,8 @@ modonoturno{
     }
 
     #icones-redes{
-        width:25px;
-        height: 25px;
+        width:35px;
+        height: 35px;
 
 
     }
@@ -288,6 +288,12 @@ modonoturno{
     #nomejs{
         font-size: 40px;     
         
+
+
+    }
+
+    #nome{
+        font-size: 30px
 
 
     }
