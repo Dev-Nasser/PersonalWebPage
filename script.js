@@ -3,10 +3,10 @@
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Front-End", "UI/Design","Design Book Cover"];
-const typingDelay = 300;
-const erasingDelay = 200;
-const newTextDelay = 2000; // Delay between current and next text
+const textArray = ["Front-End", "UI/Design"];
+const typingDelay = 150;
+const erasingDelay = 150;
+const newTextDelay = 1000; // Delay between current and next text
 let textArrayIndex = 0;
 let charIndex = 0;
 

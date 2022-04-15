@@ -17,6 +17,9 @@ body{
 
 }  
 
+a {
+    text-decoration: none;
+}
 #icones-redes{
     width: 40px;
     height: 40px;
