@@ -1,11 +1,7 @@
+
 body{
     background-color: whitesmoke;
 }
-
-modonoturno{
-    --background: white;
-    --text: black;
-  }
 
 
 /*cabeçalho*/
@@ -17,12 +13,28 @@ modonoturno{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
+
 }  
 
 #icones-redes{
     width: 40px;
     height: 40px;
     padding: 2px;
+}
+
+button{
+    padding: 5px;
+    background-color: #563d7c;
+    border-radius: 15px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
 }
 
 #nome{
@@ -44,7 +56,8 @@ modonoturno{
     font-family: "Pacifico", cursive;
     color: rgb(0, 0, 0);
     font-size: 120px;
-    padding-left: 2px
+    padding-left: 2px;
+    margin-bottom: 10px;
 
 
 }
@@ -75,7 +88,7 @@ modonoturno{
 
 #logo{
     justify-items: center;
-    margin-bottom: 300px;
+    margin-bottom: 50px;
 
 
 }
@@ -108,8 +121,16 @@ modonoturno{
     width: 100px;
     margin-top: 150px;
     justify-content: center;
+
 }
 
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
 .carousel-inner{
 
     display: flex;
@@ -117,6 +138,16 @@ modonoturno{
     margin-top: 30px;
 }
    
+footer{
+    align-items: center;
+    justify-content: center;
+    background-color: #563d7c;
+    display: flex;
+    width: 100%; 
+    bottom: auto;
+    height: 50px;        
+}  
+
 
 
 
@@ -126,16 +157,9 @@ modonoturno{
 
 #containercentral{
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-
-
-
-
-    
-
+    justify-content: space-around;
+     
 }
 
 
@@ -143,20 +167,13 @@ modonoturno{
 #imghabilidades{
     width: 60px;
     height: 60px;
+    
 
 
 }
 
-#textoprincipal{
-    font-size: 20px;
-    font-family: 'Roboto Mono', monospace;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    width: 70%;
 
 
-}
 
 
 
@@ -171,53 +188,34 @@ modonoturno{
 
 }
 
-#textoprincipal2{
+h1{
+
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+    margin-bottom: 150px;
+    margin-top: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 80px;
-    margin-bottom: 40px;
-    margin-top: 40px;
 
 
 }
 
 
 .projetos{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
-}
-
-#prj{
-    
-    height: 250px;
-    width: 53%;
-    border-color: black;
-    border: solid;
-    margin-bottom: 53px;
-    margin-top: 2%;
-    color: #563d7c;
     display: flex;
-    height: 250px;
-    width: 53%;
-    border-color: black;
-      display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+
 }
 
 
 
-#imgprj{
-    align-items: center;
-    align-self: center;
-    justify-content: center;
-    display:flex;
-    margin-bottom: 10%;
-
+.imgprj{
+    
+    width: 75%;
+    margin-bottom: 3%;
 }
 
 
@@ -226,25 +224,21 @@ modonoturno{
 
 /*rodape*/
 
-#rodape{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 300px;
-    background-color: #563d7c;
 
-}
+   
 
-#rodapetexto{
-    font-family: 'Roboto Mono', monospace;
+
+
+h3{
+    font-family: "Pacifico", cursive;
     color: white;
-    font-size: 15px;
-
-
-
-
+    font-size: 20px;
 }
+
+p{
+    margin: 50px
+}
+
 
 /*responsividade*/
 
@@ -254,6 +248,7 @@ modonoturno{
 
 
     }
+    
 
     #icones-redes{
         width:40px;
@@ -268,7 +263,11 @@ modonoturno{
 
 
     }
-
+    button{
+        width: 150px;
+        height: 50px;
+    }
+  
 }
 
 @media screen and (max-width: 600px){
@@ -299,7 +298,19 @@ modonoturno{
     }
 
 
-
 }
 
 
+@media screen and (max-width: 500px){
+    p{
+        font-size: 11px;
+}
+
+@media screen and (max-width: 377px){
+    p{
+        font-size: 9px;
+}
+
+}
+
+}
