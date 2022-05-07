@@ -176,7 +176,7 @@ html {
 #nomejs{
     font-family: "Pacifico", cursive;
     color: rgb(0, 0, 0);
-    font-size: 125px;
+    font-size: 9.3em;
     padding-left: 2px;
     margin-bottom: 10px;
 
@@ -385,7 +385,7 @@ p{
 
 @media screen and (max-width: 769px){
     #nomejs2{
-        font-size: 60px;
+        font-size: 5.3em;
         align-items: center
         
 
@@ -399,10 +399,9 @@ p{
 
 
     }
-
     #nomejs{
-        font-size: 9.3em;
-    
+        font-size: 7.3em;
+
     }
 
     #nome{
@@ -429,11 +428,7 @@ p{
 
 
 @media screen and (max-width: 600px){
-    #nomejs2{
-        font-size: 30px;
-
-
-    }
+    
 
     #icones-redes{
         width:35px;
@@ -443,8 +438,14 @@ p{
     }
 
 
+    #nomejs{
+        font-size: 7.3em;
+
+
+    }
+
     #nome{
-        font-size: 30px
+        font-size: 40px;
 
 
     }
@@ -453,26 +454,35 @@ p{
 }
 
 
-@media screen and (max-width: 500px){
-    p{
-        font-size: 11px;
+@media screen and (max-width: 468px){
+    #nomejs{
+        font-size: 5.3em;
 }
 
-@media screen and (max-width: 450px){
+    #nomejs2{
+        font-size: 2.3em;
 
-    #nav{
-        
-   }
+    
+    }
+
+    #nome{
+        font-size: 30px
+
+    }
+    @media screen and (max-width: 367px){
+        #nomejs{
+            font-size: 40px;
+
+        }
+        #icones-redes{
+           display: none;
+        }
+
+        #nome{
+            font-size: 39px;
+        }
+
+
 
 }
-
-
-
-@media screen and (max-width: 377px){
-    p{
-        font-size: 9px;
-}
-
-}
-
 }
